@@ -9,8 +9,8 @@
     <h1>This is the Home page for Bolg</h1>
     {% for post in Posts %}
         <h2>{{post.title}}</h2>
-        <p>{{post.author}}</p>
-        <ul>{{post.content}}</ul>
+        <h4>Author: {{post.author}}</h4>
+        <ul><li>{{post.content}}</li></ul>
     {% endfor %}
 </body>
 </html>
